@@ -1,0 +1,173 @@
+# Category | English Wikipedia title | optional display name
+# Add new lines and run `python3 fetch.py` — already-added topics and images are skipped.
+# Excluded on purpose: Awami League (banned) and related people/topics — see the `blocked` table in data/game.db.
+
+# Leaders & public figures
+People | Khaleda Zia
+People | Ziaur Rahman
+People | Muhammad Yunus
+People | Tarique Rahman
+People | Hussain Muhammad Ershad
+People | Fazle Hasan Abed
+People | Begum Rokeya
+People | A. K. Fazlul Huq
+People | Maulana Bhashani | Abdul Hamid Khan Bhashani
+People | Nahid Islam
+People | Abu Sayed (student) | Abu Sayed
+People | Fazlur Rahman Khan
+People | Jawed Karim
+People | Sal Khan
+
+# Writers, artists & musicians
+Culture | Rabindranath Tagore
+Culture | Kazi Nazrul Islam
+Culture | Humayun Ahmed
+Culture | Jasimuddin
+Culture | Muhammad Zafar Iqbal
+Culture | Taslima Nasrin
+Culture | Zainul Abedin
+Culture | S. M. Sultan
+Culture | Lalon
+Culture | Hason Raja
+Culture | Runa Laila
+Culture | Ayub Bachchu
+Culture | Habib Wahid
+Culture | Momtaz Begum (singer) | Momtaz Begum
+Culture | Shahabuddin Ahmed
+Culture | Anisul Hoque
+
+# Film & TV
+Film | Shakib Khan
+Film | Jaya Ahsan
+Film | Mosharraf Karim
+Film | Chanchal Chowdhury
+Film | Razzak (actor) | Razzak
+Film | Salman Shah (actor) | Salman Shah
+Film | Mehazabien Chowdhury
+Film | Bidya Sinha Saha Mim
+Film | Pori Moni
+Film | Apu Biswas
+Film | Toofan (2024 film) | Toofan
+Film | Hawa (film) | Hawa
+Film | Aynabaji
+Film | Monpura
+
+# Sports
+Sports | Shakib Al Hasan
+Sports | Tamim Iqbal
+Sports | Mashrafe Mortaza
+Sports | Mushfiqur Rahim
+Sports | Mahmudullah
+Sports | Mustafizur Rahman
+Sports | Litton Das
+Sports | Taskin Ahmed
+Sports | Najmul Hossain Shanto
+Sports | Mehidy Hasan Miraz
+Sports | Nigar Sultana
+Sports | Hamza Choudhury
+Sports | Jamal Bhuyan
+Sports | Bangladesh national cricket team
+Sports | Bangladesh national football team
+Sports | Bangladesh Premier League
+Sports | Kabaddi
+
+# Places
+Places | Dhaka
+Places | Chittagong
+Places | Sylhet
+Places | Rajshahi
+Places | Khulna
+Places | Barisal
+Places | Rangpur
+Places | Mymensingh
+Places | Comilla
+Places | Narayanganj
+Places | Gazipur
+Places | Cox's Bazar
+Places | Saint Martin's Island
+Places | Sundarbans
+Places | Bandarban
+Places | Rangamati
+Places | Sajek Valley
+Places | Kuakata
+Places | Sreemangal
+Places | Jaflong
+Places | Ratargul Swamp Forest
+Places | Tanguar Haor
+Places | Chittagong Hill Tracts
+Places | Padma River
+Places | Jamuna River (Bangladesh) | Jamuna River
+Places | Meghna River
+Places | Bay of Bengal
+Places | Keokradong
+
+# Landmarks
+Landmarks | Padma Bridge
+Landmarks | Jatiya Sangsad Bhaban
+Landmarks | National Martyrs' Memorial
+Landmarks | Shaheed Minar, Dhaka | Shaheed Minar
+Landmarks | Ahsan Manzil
+Landmarks | Lalbagh Fort
+Landmarks | Sixty Dome Mosque
+Landmarks | Somapura Mahavihara | Paharpur Buddhist Vihara
+Landmarks | Mahasthangarh
+Landmarks | Kantajew Temple
+Landmarks | Baitul Mukarram
+Landmarks | Dhakeshwari Temple
+Landmarks | Hatirjheel
+Landmarks | Dhaka Metro Rail
+Landmarks | Rooppur Nuclear Power Plant
+Landmarks | Hazrat Shahjalal International Airport
+
+# Food
+Food | Hilsa | Ilish
+Food | Panipuri | Fuchka
+Food | Biryani
+Food | Kacchi biryani
+Food | Haleem
+Food | Pitha
+Food | Bhortha
+Food | Mishti doi
+Food | Rasgulla | Roshogolla
+Food | Chotpoti
+Food | Panta bhat
+Food | Khichuri
+Food | Jhalmuri
+Food | Borhani
+Food | Shingara
+
+# Culture, history & symbols
+History | Bangladesh Liberation War
+History | Bengali language movement
+History | July Revolution (Bangladesh) | July Revolution 2024
+History | Rana Plaza collapse
+History | Partition of Bengal (1905)
+History | Bangladesh
+History | Bengali language
+Culture | Pohela Boishakh
+Culture | International Mother Language Day
+Culture | Durga Puja
+Culture | Nakshi kantha
+Culture | Jamdani
+Culture | Cycle rickshaw | Rickshaw
+Culture | Amar Shonar Bangla
+Culture | Royal Bengal Tiger
+Culture | Water lily | Shapla (Water lily)
+Culture | Bangladeshi taka
+Culture | Flag of Bangladesh
+
+# Organisations & brands
+Brands | Grameenphone
+Brands | BKash
+Brands | BRAC (organisation) | BRAC
+Brands | Grameen Bank
+Brands | Biman Bangladesh Airlines
+Brands | University of Dhaka
+Brands | Bangladesh University of Engineering and Technology | BUET
+Brands | Bangladesh Army
+Brands | Square Pharmaceuticals
+Brands | Walton Group | Walton
+Brands | PRAN-RFL Group | PRAN-RFL
+Brands | Bashundhara Group
+Brands | Bangladesh Nationalist Party
+Brands | Bangladesh Jamaat-e-Islami

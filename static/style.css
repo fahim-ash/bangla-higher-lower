@@ -1,0 +1,150 @@
+:root {
+  --text: #fff;
+  --muted: rgba(255, 255, 255, .8);
+  --green: #2ecc71;
+  --red: #e74c3c;
+  --gold: #fcd535;
+  --bd-green: #006a4e;
+  --bd-red: #f42a41;
+  --overlay: rgba(0, 0, 0, .55);
+  --bg: #111;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Montserrat", "Hind Siliguri", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.bn, [lang="bn"] { font-family: "Hind Siliguri", "Montserrat", sans-serif; }
+
+.screen { position: fixed; inset: 0; display: none; }
+.screen.active { display: block; }
+
+/* ---------- buttons ---------- */
+.btn {
+  font: inherit; font-weight: 700; cursor: pointer;
+  border-radius: 999px; padding: .9em 2.4em; font-size: 1.05rem;
+  border: 2px solid var(--text); color: var(--text); background: transparent;
+  transition: transform .15s, background .15s, color .15s;
+}
+.btn:hover:not(:disabled) { transform: scale(1.05); }
+.btn:disabled { opacity: .6; cursor: default; }
+.btn-play { background: var(--gold); border-color: var(--gold); color: #222; }
+.btn-ghost { margin-top: 12px; }
+
+/* ---------- home ---------- */
+.home-bg, .over-bg {
+  position: absolute; inset: 0; background-size: cover; background-position: center;
+  filter: blur(6px) brightness(.35); transform: scale(1.08);
+}
+.home-bg { background-color: var(--bd-green); }
+.home-content, .over-content {
+  position: relative; height: 100%; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 16px; gap: 18px;
+}
+.logo { font-size: clamp(2.2rem, 7vw, 4.5rem); font-weight: 800; line-height: 1.05; }
+.logo span { color: var(--gold); }
+.edition {
+  font-family: "Hind Siliguri", sans-serif; font-weight: 600; font-size: 1.1rem;
+  background: var(--bd-green); padding: .3em 1em; border-radius: 999px;
+  box-shadow: inset 0 0 0 2px var(--bd-red);
+}
+.tagline { color: var(--muted); font-size: 1.1rem; line-height: 1.6; }
+.hs-home { color: var(--muted); }
+
+/* ---------- game panels ---------- */
+#game { overflow: hidden; }
+.track {
+  display: flex; height: 100%; width: 150vw;
+  transform: translateX(0);
+}
+.track.sliding { transition: transform .75s cubic-bezier(.65, 0, .35, 1); transform: translateX(-50vw); }
+.panel {
+  position: relative; width: 50vw; height: 100%; flex: none;
+  background-size: cover; background-position: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 24px 32px;
+}
+.panel::before { content: ""; position: absolute; inset: 0; background: var(--overlay); }
+.panel > * { position: relative; }
+
+.name { font-size: clamp(1.6rem, 3.4vw, 2.8rem); font-weight: 700; line-height: 1.15; }
+.name-bn { font-family: "Hind Siliguri", sans-serif; font-size: clamp(1.1rem, 2vw, 1.5rem); color: var(--muted); margin-top: 6px; }
+.has { margin: 14px 0 6px; font-size: 1.05rem; color: var(--muted); }
+.views { font-size: clamp(2.2rem, 5vw, 4rem); font-weight: 800; color: var(--gold); font-variant-numeric: tabular-nums; }
+.unit { font-size: 1rem; color: var(--muted); margin-top: 6px; }
+.than { font-size: 1rem; color: var(--muted); margin-top: 16px; max-width: 26em; }
+.than b { color: var(--text); }
+
+.choices { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.choice {
+  font: inherit; font-weight: 700; font-size: 1.15rem; cursor: pointer;
+  width: 14em; padding: .8em 1em; border-radius: 999px;
+  border: 2px solid var(--text); background: transparent; color: var(--text);
+  display: flex; align-items: center; justify-content: center; gap: .5em;
+  transition: background .15s, color .15s, transform .1s;
+}
+.choice:hover { background: var(--text); color: #222; }
+.choice:active { transform: scale(.97); }
+.choice .bn { font-weight: 600; opacity: .85; }
+.choice .arrow { font-size: .8em; }
+
+.wiki-link {
+  position: absolute; bottom: 52px; font-size: .75rem; color: rgba(255,255,255,.55);
+  text-decoration: none;
+}
+.wiki-link:hover { color: var(--text); text-decoration: underline; }
+.cat {
+  position: absolute; top: 20px; font-size: .75rem; letter-spacing: .12em; text-transform: uppercase;
+  color: rgba(255,255,255,.65); border: 1px solid rgba(255,255,255,.35); padding: .25em .8em; border-radius: 999px;
+}
+
+/* ---------- VS badge ---------- */
+.vs {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 76px; height: 76px; border-radius: 50%;
+  background: var(--text); color: #222; font-weight: 800; font-size: 1.4rem;
+  display: flex; align-items: center; justify-content: center; z-index: 5;
+  transition: background .3s, color .3s, transform .3s;
+}
+.vs.correct { background: var(--green); color: #fff; transform: translate(-50%, -50%) scale(1.12); }
+.vs.wrong   { background: var(--red);   color: #fff; transform: translate(-50%, -50%) scale(1.12); }
+
+.score {
+  position: absolute; bottom: 18px; z-index: 5; font-size: 1.05rem; font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,.6);
+}
+.score-left { left: 24px; }
+.score-right { right: 24px; }
+
+/* ---------- game over ---------- */
+.over-label { font-size: 1.4rem; color: var(--muted); }
+.over-score { font-size: clamp(5rem, 16vw, 9rem); font-weight: 800; color: var(--gold); line-height: 1; }
+.over-msg { font-family: "Hind Siliguri", sans-serif; font-size: 1.2rem; color: var(--muted); max-width: 30em; }
+
+.credit {
+  position: fixed; bottom: 4px; left: 0; right: 0; text-align: center; z-index: 6;
+  font-size: .65rem; color: rgba(255,255,255,.4); pointer-events: none; padding: 0 16px;
+}
+
+/* ---------- phones: stack panels vertically ---------- */
+@media (max-width: 720px) {
+  .track { flex-direction: column; width: 100vw; height: 150dvh; }
+  .track.sliding { transform: translateY(-50dvh); }
+  .panel { width: 100vw; height: 50dvh; padding: 16px; }
+  .vs { width: 56px; height: 56px; font-size: 1.05rem; }
+  .choices { flex-direction: row; }
+  .choice { width: auto; padding: .7em 1.2em; font-size: 1rem; }
+  .choice .bn { display: none; }
+  .has { margin: 8px 0 4px; }
+  .than { margin-top: 10px; font-size: .9rem; }
+  .cat { top: 10px; }
+  .wiki-link { bottom: 8px; }
+  .score { top: 12px; bottom: auto; font-size: .9rem; }
+  .score-left { left: 16px; }
+  .score-right { right: 16px; }
+  .credit { display: none; }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Higher Lower Bangladesh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Hind+Siliguri:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Home screen -->
+<section id="home" class="screen active">
+  <div class="home-bg" id="home-bg"></div>
+  <div class="home-content">
+    <h1 class="logo">The <span>Higher</span> Lower Game</h1>
+    <p class="edition">বাংলাদেশ সংস্করণ · Bangladesh Edition</p>
+    <p class="tagline">Which Bangladeshi topic gets more views?<br><span class="bn">কোনটা বেশি দেখা হয়?</span></p>
+    <button id="play-btn" class="btn btn-play" disabled>Loading…</button>
+    <p class="hs-home">High Score: <b id="hs-home">0</b></p>
+  </div>
+</section>
+
+<!-- Game screen -->
+<section id="game" class="screen">
+  <div class="track" id="track">
+    <div class="panel" id="p0"></div>
+    <div class="panel" id="p1"></div>
+    <div class="panel" id="p2"></div>
+  </div>
+  <div class="vs" id="vs"><span class="vs-text">VS</span></div>
+  <div class="score score-left">Score: <b id="score">0</b></div>
+  <div class="score score-right">High Score: <b id="highscore">0</b></div>
+</section>
+
+<!-- Game over -->
+<section id="over" class="screen">
+  <div class="over-bg" id="over-bg"></div>
+  <div class="over-content">
+    <p class="over-label">You scored:</p>
+    <p class="over-score" id="final-score">0</p>
+    <p class="over-msg" id="over-msg"></p>
+    <button id="again-btn" class="btn btn-play">Play Again</button>
+    <button id="home-btn" class="btn btn-ghost">Home</button>
+  </div>
+</section>
+
+<footer class="credit">Data: median monthly views on English + Bangla Wikipedia, last 12 months · Images: Wikimedia</footer>
+
+<script src="game.js"></script>
+</body>
+</html>

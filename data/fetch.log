@@ -1,0 +1,81 @@
+  error Ziaur Rahman: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/bn.wikipedia/all-access/user/%E0%A6%9C%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%89%E0%A6%B0_%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8/monthly/2025100100/2026093000
+  error Abu Sayed (student): giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Abu+Sayed+%28student%29&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Kazi Nazrul Islam: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Kazi+Nazrul+Islam&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Ayub Bachchu: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Ayub_Bachchu/monthly/2025100100/2026093000
+  error Habib Wahid: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Habib+Wahid&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Mosharraf Karim: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/bn.wikipedia/all-access/user/%E0%A6%AE%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%B0%E0%A6%B0%E0%A6%AB_%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%AE/monthly/2025100100/2026093000
+  error Razzak (actor): giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Razzak+%28actor%29&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Mashrafe Mortaza: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/bn.wikipedia/all-access/user/%E0%A6%AE%E0%A6%BE%E0%A6%B6%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A7%80_%E0%A6%AC%E0%A6%BF%E0%A6%A8_%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%9C%E0%A6%BE/monthly/2025100100/2026093000
+  error Litton Das: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Litton+Das&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Sylhet: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Sylhet&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Mymensingh: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Mymensingh&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Kuakata: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Kuakata/monthly/2025100100/2026093000
+  error Sreemangal: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Sreemangal&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Padma Bridge: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Padma_Bridge/monthly/2025100100/2026093000
+  error Ahsan Manzil: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Ahsan+Manzil&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Rooppur Nuclear Power Plant: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rooppur_Nuclear_Power_Plant/monthly/2025100100/2026093000
+  error Hazrat Shahjalal International Airport: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Hazrat+Shahjalal+International+Airport&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Panta bhat: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Panta+bhat&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Khichuri: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Khichuri&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Bangladesh: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Bangladesh&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Bengali language: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Bengali+language&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Nakshi kantha: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Nakshi_kantha/monthly/2025100100/2026093000
+  error Jamdani: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Jamdani&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Bangladeshi taka: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bangladeshi_taka/monthly/2025100100/2026093000
+  error Flag of Bangladesh: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Flag+of+Bangladesh&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Biman Bangladesh Airlines: giving up on https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/bn.wikipedia/all-access/user/%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6_%E0%A6%8F%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%B8/monthly/2025100100/2026093000
+  error University of Dhaka: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=University+of+Dhaka&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error PRAN-RFL Group: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=PRAN-RFL+Group&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  error Bashundhara Group: giving up on https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1&titles=Bashundhara+Group&prop=pageimages%7Clanglinks%7Cdescription&piprop=thumbnail%7Cname&pithumbsize=1280&lllang=bn
+  added Fazle Hasan Abed (ফজলে হাসান আবেদ) — 2,497 views/month
+  added Begum Rokeya (বেগম রোকেয়া) — 7,773 views/month
+  skip  Maulana Bhashani: redirects to 'Abdul Hamid Khan Bhashani', which is already added
+  added Nahid Islam (নাহিদ ইসলাম) — 10,993 views/month
+  added Humayun Ahmed (হুমায়ূন আহমেদ) — 7,287 views/month
+  skip  Muhammad Zafar Iqbal: redirects to 'Muhammed Zafar Iqbal', which is already added
+  added Zainul Abedin (জয়নুল আবেদিন) — 2,076 views/month
+  skip  S. M. Sultan: no such Wikipedia article
+  added Jaya Ahsan (জয়া আহসান) — 8,466 views/month
+  added Bidya Sinha Saha Mim (বিদ্যা সিনহা সাহা মীম) — 2,615 views/month
+  added Pori Moni (পরীমনি) — 11,257 views/month
+  added Tamim Iqbal (তামিম ইকবাল) — 6,288 views/month
+  added Taskin Ahmed (তাসকিন আহমেদ) — 2,692 views/month
+  added Jamal Bhuyan (জামাল ভূঁইয়া) — 3,745 views/month
+  skip  Bangladesh national cricket team: article has no lead image
+  added Chittagong (চট্টগ্রাম) — 18,271 views/month
+  added Comilla (কুমিল্লা) — 5,907 views/month
+  added Saint Martin's Island (সেন্ট মার্টিন দ্বীপ) — 4,289 views/month
+  added Sundarbans (সুন্দরবন) — 16,929 views/month
+  added Chittagong Hill Tracts (পার্বত্য চট্টগ্রাম) — 5,497 views/month
+  added Padma River (পদ্মা নদী) — 3,525 views/month
+  added Keokradong (কেওক্রাডং) — 1,255 views/month
+  added Lalbagh Fort (লালবাগের কেল্লা) — 4,431 views/month
+  added Kantajew Temple (কান্তনগর মন্দির) — 1,387 views/month
+  added Baitul Mukarram (বায়তুল মোকাররম জাতীয় মসজিদ) — 1,883 views/month
+  skip  Hilsa: redirects to 'Ilish', which is already added
+  added Hyderabadi biryani (হায়দ্রাবাদী বিরিয়ানি) — 3,067 views/month
+  added Haleem (হালিম) — 6,445 views/month
+  added Chotpoti (চটপটি) — 565 views/month
+  added Samosa (সমুসা) — 20,905 views/month
+  added Bangladesh Liberation War (বাংলাদেশের স্বাধীনতা যুদ্ধ) — 38,220 views/month
+  skip  July Revolution (Bangladesh): redirects to 'July Uprising', which is already added
+  added Partition of Bengal (1905) (বঙ্গভঙ্গ (১৯০৫)) — 13,947 views/month
+  added Pohela Boishakh (পহেলা বৈশাখ) — 12,221 views/month
+  added International Mother Language Day (আন্তর্জাতিক মাতৃভাষা দিবস) — 13,166 views/month
+  added Durga Puja (দুর্গাপূজা) — 15,414 views/month
+  added Cycle rickshaw (-) — 3,695 views/month
+  added Amar Sonar Bangla (আমার সোনার বাংলা) — 6,812 views/month
+  added Bengal tiger (বেঙ্গল টাইগার) — 37,597 views/month
+  skip  Water lily: article has no lead image
+  added Grameenphone (গ্রামীণফোন) — 3,516 views/month
+  added BKash (বিকাশ) — 3,715 views/month
+  skip  BRAC (organisation): article has no lead image
+  skip  Grameen Bank: article has no lead image
+  skip  Bangladesh University of Engineering and Technology: article has no lead image
+  added Bangladesh Army (বাংলাদেশ সেনাবাহিনী) — 13,670 views/month
+  added Square Pharmaceuticals (স্কয়ার ফার্মাসিউটিক্যাল্‌স লিমিটেড) — 1,108 views/month
+  added Walton Group (ওয়ালটন গ্রুপ) — 2,695 views/month
+  added Bangladesh Nationalist Party (বাংলাদেশ জাতীয়তাবাদী দল) — 75,782 views/month
+  added Bangladesh Jamaat-e-Islami (বাংলাদেশ জামায়াতে ইসলামী) — 38,569 views/month
+
+added 40, skipped 10, already known 73, blocked 0
